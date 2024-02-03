@@ -6,17 +6,19 @@ public class Initials{
 
         //  For loop demsontrartion
 
-        // for (int i = 0; i < 10; i++) {
-        //     System.out.println(i);
-        // }
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
     
-        // for (int j = 1; j > 0; j++) {
-        //     System.out.println(j);
 
-        //     if (j==10000) {
-        //         break;
-        //     }
-        // }
+        //with break statement
+        for (int j = 1; j > 0; j++) {
+            System.out.println(j);
+
+            if (j==10000) {
+                break;
+            }
+        }
 
         //Ex with for loop::with range from 0 to 10
 
@@ -28,9 +30,9 @@ public class Initials{
 
         // while LOOP demonstration
 
-        // while (true) {
-        //     System.out.println("hello from while ");
-        // }
+        while (true) {
+            System.out.println("hello from while ");
+        }
 
 
 
