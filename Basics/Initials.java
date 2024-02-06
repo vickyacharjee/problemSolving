@@ -6,8 +6,14 @@ public class Initials{
 
         //  For loop demsontrartion
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <=100; i++) {
             System.out.println(i);
+
+            if(i==99){
+                System.out.println("Break applied");
+                break;
+                
+            }
         }
     
 
@@ -20,13 +26,13 @@ public class Initials{
         //     }
         // }
 
-        //Ex with for loop::with range from 0 to 10
+        // Ex with for loop::with range from 0 to 10
 
-        // for (int i = 1; i <=10; i++) {
-        //     for (int j =0; j <=10; j++) {
-        //         System.out.println(i+"X"+j+"="+i*j);
-        //     }
-        // }
+        for (int i = 1; i <=10; i++) {
+            for (int j =0; j <=12; j++) {
+                System.out.println(i+"X"+j+"="+i*j);
+            }
+        }
 
         // while LOOP demonstration
 
@@ -36,19 +42,18 @@ public class Initials{
 
         //while EX
 
-        int a=20000;
-        while (a>1) {
+        // int a=20000;
+        // while (a>1) {
 
-            System.out.println("done");
-            if (a==12) 
-                System.out.println("Applied break");
-                break;
-            
-            
-            
+        //     System.out.println("done");
+        //     if (a==12) 
+        //         System.out.println("Applied break");
+        //         break;
+        
+        // }
 
-        }
 
+        System.out.println("vic");
 
 
 
