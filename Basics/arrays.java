@@ -7,5 +7,19 @@ public class arrays {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(i+ " "+arr[i]);
         }
+
+
+        //add element via for loop
+        int asize=5;
+        int[] arr2=new int[asize];
+
+        for (int j = 0; j < asize;j++) {
+            arr2[j]=j*2;
+        }
+
+
+        for (int j = 0; j < asize;j++) {
+          System.out.println(arr2[j]);
+        }
     }
 }
