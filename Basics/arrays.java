@@ -21,5 +21,22 @@ public class arrays {
         for (int j = 0; j < asize;j++) {
           System.out.println(arr2[j]);
         }
+        System.out.println("count number of present arrays");
+        //Count Number OF arrays
+
+        int[] arrays={1,2,3,4,5};
+        int count=0;
+
+        //via function
+        System.out.println(arrays.length);
+        
+        for (int i = 0; i <5; i++) {
+            count++;
+        }
+
+        System.out.println(count);
     }
+
+    
+
 }
