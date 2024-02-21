@@ -10,7 +10,7 @@ public class linearSearch {
             System.out.println("found at postion number: "+i);
         }
         else{
-            System.out.println("not found");
+            System.out.println("NOT___ found");
         }
 
       }
